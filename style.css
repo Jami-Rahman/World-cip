@@ -1,18 +1,20 @@
-*{
+* {
     margin: 0;
     padding: 0;
     font-family: 'Poppins', sans-serif;
 }
-main{
+
+main {
     width: 1070px;
     margin-left: 140px;
     margin-right: 140px;
     margin-bottom: 100px;
 }
+
 /* ---------------------------------------
             Banner section
 --------------------------------------- */
-#banner{
+#banner {
     width: 100%;
     height: 550px;
     margin-top: 35px;
@@ -21,56 +23,64 @@ main{
     border-radius: 30px;
     margin-bottom: 100px;
 }
-#banner:hover .image img{
+
+#banner:hover .image img {
     transform: translate(-350px);
 }
-.text{
+
+.text {
     width: 50%;
 }
 
-.inner{
+.inner {
     margin-left: 100px;
     margin-top: 100px;
     width: 80%;
 }
-.text h1{
+
+.text h1 {
     font-size: 50px;
     color: #FFFFFF;
     padding-bottom: 20px;
 }
-.text p{
+
+.text p {
     width: 450px;
     font-size: 16px;
     color: #FFFFFF;
     padding-bottom: 45px;
 }
-.inner a{        
-        color: #FFFFFF;
-        background-color: #DD0000;
-        text-decoration: none;
-        padding: 10px 20px;
-        font-size: 18px;
-        border-radius: 10px;
+
+.inner a {
+    color: #FFFFFF;
+    background-color: #DD0000;
+    text-decoration: none;
+    padding: 10px 20px;
+    font-size: 18px;
+    border-radius: 10px;
 }
-.image{
+
+.image {
     width: 50%;
 }
-.image img{
+
+.image img {
     width: 80%;
-    margin-left:30px;
+    margin-left: 30px;
     margin-top: 99px;
     transition: transform 2s ease-in;
-    
+
 }
 
 /* ---------------------------------------
             Bally section
 --------------------------------------- */
 
-#bally{
+#bally {
     display: flex;
 }
-.navbar{
+
+.navbar {
     background-color: black;
     display: block;
     width: 25%;
@@ -81,10 +91,10 @@ main{
     margin-right: 10px;
     padding: 30px 0px;
 }
-.innernav{
 
-}
-.button{
+.innernav {}
+
+.button {
     color: black;
     width: 160px;
     background-color: #ffffff;
@@ -96,7 +106,8 @@ main{
     margin: 15px 25px;
     text-align: center;
 }
-.button:hover{
+
+.button:hover {
     color: #FFFFFF;
     width: 160px;
     background-color: #DD0000;
@@ -109,7 +120,8 @@ main{
     margin: 15px 25px;
     text-align: center;
 }
-.button-2{
+
+.button-2 {
     color: #FFFFFF;
     width: 160px;
     background-color: #DD0000;
@@ -122,28 +134,32 @@ main{
     margin: 15px 25px;
     text-align: center;
 }
-.gallery{
+
+.gallery {
     width: 75%;
     display: grid;
     grid-template-columns: repeat(3, 1fr);
 }
 
-.pic{
+.pic {
     width: 250px;
     height: 300px;
     border: 1px solid rgb(238, 232, 232);
     border-radius: 10px;
     margin-bottom: 15px;
 }
-.pic img{
+
+.pic img {
     width: 250px;
 }
-.gallery_text{
+
+.gallery_text {
     width: 100%;
     height: 143px;
     margin-left: 12px;
 }
-.n_button{
+
+.n_button {
     color: black;
     width: 100px;
     text-decoration: none;
@@ -154,31 +170,37 @@ main{
     display: block;
     text-align: center;
 }
-.gallery_text p{
+
+.gallery_text p {
     padding: 15px 0px;
     font-size: 15px;
     font-weight: bold;
 }
-.icon{
+
+.icon {
     display: flex;
 }
-.icon img{
+
+.icon img {
     width: 25px;
     padding-right: 10px;
 }
-.icon-2{
+
+.icon-2 {
     padding-left: 28px;
 }
-.fa-clock-eight{
-    font-size: 25px;
-    color: gold;
-}
-.fa-message-dots{
+
+.fa-clock-eight {
     font-size: 25px;
     color: gold;
 }
 
-.button-3{
+.fa-message-dots {
+    font-size: 25px;
+    color: gold;
+}
+
+.button-3 {
     color: #FFFFFF;
     width: 160px;
     background-color: #DD0000;
@@ -192,31 +214,36 @@ main{
     text-align: center;
     visibility: hidden;
 }
+
 /* ---------------------------------------
                  Footer
 --------------------------------------- */
 
-.footer{
+.footer {
     background-color: black;
     height: 444px;
 }
-.footer h1{
+
+.footer h1 {
     color: #FFFFFF;
     text-align: center;
     padding-top: 150px;
     padding-bottom: 50px;
 }
-.footer hr{
+
+.footer hr {
     width: 80%;
     color: rgba(255, 255, 255, 0.1);
     margin-left: 10%;
     border: 1px solid;
 }
-.bottom{
+
+.bottom {
     display: flex;
     padding: 0px 150px;
 }
-.bottom p{
+
+.bottom p {
     color: #B9B9B9;
     font-size: small;
     font-weight: 500;
@@ -229,72 +256,65 @@ main{
 
 /* ----------------Mobile-------------- */
 
-@media only screen and (max-width: 688px){
-    /* body{
+@media only screen and (max-width: 688px) {
+    body {
         display: block;
-    } */
-    main{
-        width: 50px;
     }
-    #banner{
-        width: 390px;
-        height: 1000px;    
-        display: block;    
-        background-color: #DD0000;
+
+    main {
+        width: 800px;
+        margin-top: 20px;
+        margin-left: 53px;
+        margin-bottom: 50px;
+        background-color: yellow;
     }
-    .text{
-        width: 100%;
-    }
-    .inner h1{
-        font-size: 25px;
-    }
-    .image img{
-        padding: 10px 10px;
-        width: 80%;
-    }
-    main{
-        width: 1070px;
-        margin-left: 140px;
-        margin-right: 140px;
-        margin-bottom: 100px;
-    }
+
     /* ---------------------------------------
                 Banner section
     --------------------------------------- */
-        
-    .text p{
-        width: 450px;
-        font-size: 16px;
-        color: #FFFFFF;
-        padding-bottom: 45px;
+    #banner {
+        width: 100%;
+        height: 1000px;
+        display: block;
     }
-    .inner a{        
-            color: #FFFFFF;
-            background-color: #DD0000;
-            text-decoration: none;
-            padding: 10px 20px;
-            font-size: 18px;
-            border-radius: 10px;
+
+    .text {
+        width: 100%;
     }
-    .image{
-        width: 50%;
-    }
-    .image img{
+
+    .text p {
         width: 80%;
-        margin-left:30px;
-        margin-top: 99px;
-        transition: transform 2s ease-in;
-        
+        font-size: 25px;
+        padding-left: 52px;
+        text-align: center;
     }
-    
+
+    .inner h1 {
+        font-size: 60px;
+        text-align: center;
+    }
+
+    .inner a {
+        padding: 12px 60px;
+        margin: 10px 197px;
+        font-size: 20px;
+    }
+
+    .image img {
+        width: 111%;
+        margin-left: 627px;
+        margin-top: 99px;
+    }
+
     /* ---------------------------------------
                 Bally section
     --------------------------------------- */
-    
-    #bally{
+
+    #bally {
         display: flex;
     }
-    .navbar{
+
+    .navbar {
         background-color: black;
         display: block;
         width: 25%;
@@ -305,10 +325,10 @@ main{
         margin-right: 10px;
         padding: 30px 0px;
     }
-    .innernav{
-    
-    }
-    .button{
+
+    .innernav {}
+
+    .button {
         color: black;
         width: 160px;
         background-color: #ffffff;
@@ -320,7 +340,8 @@ main{
         margin: 15px 25px;
         text-align: center;
     }
-    .button:hover{
+
+    .button:hover {
         color: #FFFFFF;
         width: 160px;
         background-color: #DD0000;
@@ -333,7 +354,8 @@ main{
         margin: 15px 25px;
         text-align: center;
     }
-    .button-2{
+
+    .button-2 {
         color: #FFFFFF;
         width: 160px;
         background-color: #DD0000;
@@ -346,28 +368,32 @@ main{
         margin: 15px 25px;
         text-align: center;
     }
-    .gallery{
+
+    .gallery {
         width: 75%;
         display: grid;
         grid-template-columns: repeat(3, 1fr);
     }
-    
-    .pic{
+
+    .pic {
         width: 250px;
         height: 300px;
         border: 1px solid rgb(238, 232, 232);
         border-radius: 10px;
         margin-bottom: 15px;
     }
-    .pic img{
+
+    .pic img {
         width: 250px;
     }
-    .gallery_text{
+
+    .gallery_text {
         width: 100%;
         height: 143px;
         margin-left: 12px;
     }
-    .n_button{
+
+    .n_button {
         color: black;
         width: 100px;
         text-decoration: none;
@@ -378,31 +404,37 @@ main{
         display: block;
         text-align: center;
     }
-    .gallery_text p{
+
+    .gallery_text p {
         padding: 15px 0px;
         font-size: 15px;
         font-weight: bold;
     }
-    .icon{
+
+    .icon {
         display: flex;
     }
-    .icon img{
+
+    .icon img {
         width: 25px;
         padding-right: 10px;
     }
-    .icon-2{
+
+    .icon-2 {
         padding-left: 28px;
     }
-    .fa-clock-eight{
+
+    .fa-clock-eight {
         font-size: 25px;
         color: gold;
     }
-    .fa-message-dots{
+
+    .fa-message-dots {
         font-size: 25px;
         color: gold;
     }
-    
-    .button-3{
+
+    .button-3 {
         color: #FFFFFF;
         width: 160px;
         background-color: #DD0000;
@@ -416,31 +448,36 @@ main{
         text-align: center;
         visibility: hidden;
     }
+
     /* ---------------------------------------
                      Footer
     --------------------------------------- */
-    
-    .footer{
+
+    .footer {
         background-color: black;
         height: 444px;
     }
-    .footer h1{
+
+    .footer h1 {
         color: #FFFFFF;
         text-align: center;
         padding-top: 150px;
         padding-bottom: 50px;
     }
-    .footer hr{
+
+    .footer hr {
         width: 80%;
         color: rgba(255, 255, 255, 0.1);
         margin-left: 10%;
         border: 1px solid;
     }
-    .bottom{
+
+    .bottom {
         display: flex;
         padding: 0px 150px;
     }
-    .bottom p{
+
+    .bottom p {
         color: #B9B9B9;
         font-size: small;
         font-weight: 500;
