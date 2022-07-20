@@ -300,6 +300,9 @@ main {
         font-size: 20px;
     }
 
+    .button {
+        border: 1px solid black;
+    }
     .image img {
         width: 111%;
         margin-left: 627px;
